@@ -298,7 +298,7 @@ header .social-info li a:hover {
 }
 
 #feature {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 
 #feature .title {
@@ -306,7 +306,7 @@ header .social-info li a:hover {
 }
 
 #feature .feature-item {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 #feature .feature-item:first-child {

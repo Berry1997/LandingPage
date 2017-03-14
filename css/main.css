@@ -45,7 +45,16 @@ section h2 {
     margin-bottom: 2rem;
 }
 
-
+.logo-first{
+  color: #3366ff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.logo-last{
+  color: #00ffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
 
 
 h1, h2, h3, h4, h5, h6, p {

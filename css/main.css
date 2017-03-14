@@ -51,11 +51,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-    font-size: 52px;
+    font-size: 60px;
+    color: rgb(84, 68, 180);
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 45px;
     font-weight: 200;
 }
 
@@ -149,7 +150,9 @@ header .social-info li a:hover {
     color: #f48e5c;
 }
 
-
+#title , #subtitle{
+  color: rgb(84, 68, 180);
+}
 
 /*#banner .app-img {
     padding-top: 10px;

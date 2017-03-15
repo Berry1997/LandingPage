@@ -16,10 +16,45 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
-
+     <!-- 個人嘗試-->
+     <style>
+    #b0 { background-image: url("666.jpg"); }
+     #b1 { background-image: url("66.jpg"); }
+#b2 { background-image: url("666.jpg"); }
+#b3 { background-image: url("66.jpg"); }
+#b4 { background-image: url("666.jpg"); }
+#b5 { background-image: url("66.jpg"); }
+#b6 { background-image: url("666.jpg"); }
+#b7 { background-image: url("66.jpg"); }
+#b8 { background-image: url("666.jpg"); }
+#b9 { background-image: url("66.jpg"); }
+#b10 { background-image: url("666.jpg"); }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#nav">
+    <!-- 個人嘗試-->
+    <script>
+	document.body.id = "b1";
+</script>
+    <script>
+
+        function run(interval, frames) {
+    var int = 1;
+    var interval = 10000;
+    
+    function func() {
+        document.body.id = "b"+int;
+        int++;
+        if(int === frames) { int = 1; }
+    }
+    
+    var swap = window.setInterval(func, interval);
+}
+
+run(1000, 10);
+    </script>
+    <!-- 個人嘗試-->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <a href="#" class="logo navbar-brand"><span class="logo-first">Time</span><span class="logo-last">Capsule</span></a>

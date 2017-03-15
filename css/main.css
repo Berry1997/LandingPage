@@ -161,7 +161,7 @@ header .social-info li a:hover {
 }
 
 .bg-contain{
-  background-image: url("../images/66.jpg");
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

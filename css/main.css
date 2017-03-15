@@ -92,33 +92,6 @@ ul li {
     list-style: none;
 }
 
-/*.menu .navbar-default {
-    background: none;
-    border-color: transparent;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.menu .navbar-default .navbar-nav>li>a {
-    font-size: 15px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200;
-    color: #666;
-    padding: 5px 15px;
-}
-
-.menu .navbar-default .navbar-nav>li>a:hover {
-    color: #f48e5c;
-}
-
-.menu .navbar-nav {
-    float: none;
-    display: inline-block;
-}
-
-.menu .navbar {
-    min-height: 0;
-}*/
 
 header {
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
@@ -171,91 +144,9 @@ header .social-info li a:hover {
   font-size: 30px;
 }
 
-/*#banner .app-img {
-    padding-top: 10px;
-}
 
-#banner .block>p {
-    margin-bottom: 65px;
-}
 
-#banner .block {
-    padding-top: 10px;
-}
-
-#banner .block h1 {
-    margin-bottom: 18px;
-    line-height: 55px;
-    color: #262b31;
-    font-weight: 300;
-}
-
-#banner .block p {
-    font-size: 20px;
-    color: #999;
-    font-weight: 300;
-}
-
-#banner .block .download-btn li {
-    display: inline-block;
-}
-
-#banner .block .download-btn li a {
-    color: #fff;
-    border: none;
-    border-radius: 0;
-    padding: 10px 28px 13px;
-    font-size: 18px;
-}
-
-#banner .block .download-btn li a i {
-    margin-right: 10px;
-    font-size: 20px;
-}
-
-#banner .block .download-btn li .btn-apple {
-    background: #8883bc;
-    border: 1px solid transparent;
-    -webkit-transition: .2s all;
-    -o-transition: .2s all;
-    transition: .2s all;
-}
-
-#banner .block .download-btn li .btn-apple:hover {
-    color: #8883bc;
-    background: #fff;
-    border: 1px solid #8883bc;
-}
-
-#banner .block .download-btn li .btn-andriod {
-    background: #6fbf39;
-    border: 1px solid transparent;
-    -webkit-transition: .2s all;
-    -o-transition: .2s all;
-    transition: .2s all;
-}
-
-#banner .block .download-btn li .btn-andriod:hover {
-    color: #6fbf39;
-    background: #fff;
-    border: 1px solid #6fbf39;
-}
-
-#banner .block .download-btn li .btn-windows {
-    background: #00afec;
-    border: 1px solid transparent;
-    -webkit-transition: .2s all;
-    -o-transition: .2s all;
-    transition: .2s all;
-}
-
-#banner .block .download-btn li .btn-windows:hover {
-    color: #00afec;
-    background: #fff;
-    border: 1px solid #00afec;
-}*/
-
-#service {
+/*#service {
 
     padding: 55px 0;
 }
@@ -317,7 +208,7 @@ header .social-info li a:hover {
 
 #service .block p {
     color: #666;
-}
+}*/
 
 #feature {
     padding: 50px 0;

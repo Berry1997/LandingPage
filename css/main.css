@@ -239,7 +239,7 @@ header .social-info li a:hover {
 }
 
 .bg-contain-fg{
-  background-color: rgba(255, 255, 255, 0.83);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 #feature {
@@ -277,7 +277,7 @@ header .social-info li a:hover {
 }
 
 #feature .feature-item h4 {
-    color: rgb(255, 179, 102);
+    color: rgb(203, 67, 0);
     margin-bottom: 0;
     font-weight: 300;
     margin-bottom: 8px;

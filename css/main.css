@@ -215,23 +215,24 @@ header .social-info li a:hover {
 }*/
 
 #feature {
-    background-image: url("../images/66.jpg");
-    background-size: cover;
     padding: 50px 0;
     margin-top: 50px;
     border-top: 1px solid #dedede;
+    background-image: url("../images/66.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    text-align: center;
+    opacity: 0.8;
 }
 
 #feature .title {
     font-weight: 300;
-}
 
+}
 #feature .feature-item {
     margin-top: 10px;
 }
@@ -254,6 +255,7 @@ header .social-info li a:hover {
     margin-bottom: 0;
     font-weight: 300;
     margin-bottom: 8px;
+
 }
 
 #feature .feature-item p {

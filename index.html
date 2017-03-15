@@ -32,7 +32,43 @@
             margin-bottom: 20px;
         }
     </style>
+    <style>
+        #b1 {
+            background-image: url("../images/66.jpg");
+        }
 
+        #b2 {
+            background-image: url("../images/666.jpg");
+        }
+
+        #b3 {
+            background-image: url("../images/66.jpg");
+        }
+
+        #b4 {
+            background-image: url("../images/666.jpg");
+        }
+
+        #b5 {
+            background-image: url("../images/66.jpg");
+        }
+
+        #b6 {
+            background-image: url("../images/666.jpg");
+        }
+
+        #b7 {
+            background-image: url("../images/66.jpg");
+        }
+
+        #b8 {
+            background-image: url("../images/666.jpg");
+        }
+
+        #b9 {
+            background-image: url("../images/66.jpg");
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#nav">
@@ -56,21 +92,21 @@
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="share" href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
-                      <img src="images/facebook.png" alt="Facebook" style="height:2.5rem;"/>
-                  </a>
-                  <!-- Google+ -->
-                  <a class="share" href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
-                      <img src="images/google.png" alt="Google"  style="height:2.5rem;"/>
-                  </a>
-                  <!-- Twitter -->
-                  <a class="share" href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
-                      <img src="images/twitter.png" alt="Twitter"  style="height:2.5rem;"/>
-                  </a>
-                  <!-- Email -->
-                  <a class="share" href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
-                      <img src="images/email.png" alt="Email"  style="height:2.5rem;"/>
-                  </a>
+                    <a class="share" href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+                        <img src="images/facebook.png" alt="Facebook" style="height:2.5rem;" />
+                    </a>
+                    <!-- Google+ -->
+                    <a class="share" href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+                        <img src="images/google.png" alt="Google" style="height:2.5rem;" />
+                    </a>
+                    <!-- Twitter -->
+                    <a class="share" href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                        <img src="images/twitter.png" alt="Twitter" style="height:2.5rem;" />
+                    </a>
+                    <!-- Email -->
+                    <a class="share" href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+                        <img src="images/email.png" alt="Email" style="height:2.5rem;" />
+                    </a>
                 </li>
             </ul>
         </div>
@@ -283,6 +319,25 @@
 
             ga('create', 'UA-93490874-1', 'auto');
             ga('send', 'pageview');
+        </script>
+        <script type="text/javascript">
+            function run(interval, frames) {
+                var int = 1;
+                var interval = 10000;
+
+                function func() {
+
+                    document.body.id = "b" + int;
+                    int++;
+                    if (int === frames) {
+                        int = 1;
+                    }
+                }
+
+                var swap = window.setInterval(func, interval);
+            }
+
+            run(1000, 10); //milliseconds, frames
         </script>
     </section>
 

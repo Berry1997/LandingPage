@@ -41,6 +41,10 @@ html{
     padding-top: 5rem;
 }
 
+.share:hover, .share:focus{
+  text-decoration: none;
+}
+
 section h2 {
     margin-bottom: 2rem;
 }

@@ -18,9 +18,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
     <style>
-    .superShadow {
+        .superShadow {
             text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%), 0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(0, 0, 0, .5), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
-    }
+        }
+    </style>
+    <style type="text/css">
+        #share-buttons img {
+            width: 50px;
+            padding: 5px;
+            border: 0;
+            box-shadow: 0;
+            display: inline;
+            margin-bottom: 20px;
+        }
     </style>
 
 </head>
@@ -35,7 +45,7 @@
                     <a class="nav-link" href="#banner">Home<span class="icon-bar"></span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#why">Why</a>
+                    <a class="nav-link" href="#why">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#feature">Feature</a>
@@ -52,10 +62,27 @@
             <div></div>
             <div>
                 <h1 class="superShadow" style="color:black;font-size:100px;">TimeCapsule</h1><br>
-                <p class="superShadow"  style="color:black;font-size:30px;">
+                <p class="superShadow" style="color:black;font-size:30px;">
                     Always Late But Worth To Wait.
                 </p>
                 <ul class="download-btn" style="list-style-type: none;">
+                  <div id="share-buttons">
+                      <a href="http://www.facebook.com/sharer.php?u=https://simplesharebuttons.com" target="_blank">
+                          <img src="images/facebook.png" alt="Facebook" />
+                      </a>
+                      <!-- Google+ -->
+                      <a href="https://plus.google.com/share?url=https://simplesharebuttons.com" target="_blank">
+                          <img src="images/google.png" alt="Google" />
+                      </a>
+                      <!-- Twitter -->
+                      <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+                          <img src="images/twitter.png" alt="Twitter" />
+                      </a>
+                      <!-- Email -->
+                      <a href="mailto:?Subject=Simple Share Buttons&amp;Body=I%20saw%20this%20and%20thought%20of%20you!%20 https://simplesharebuttons.com">
+                          <img src="images/email.png" alt="Email" />
+                      </a>
+                  </div>
                     <li>
                         <a href="https://docs.google.com/forms/d/1t9sXFWGV37njGNTveNWuU2-ALjmS-VLdVMOL5DnbCNE/viewform?edit_requested=true" type="submit" class="btn .btn-primary btn-lg "><i class="fa fa-envelope-o" aria-hidden="true" style="color:blue "></i>&nbsp;&nbsp;Get Notified When Available</a>
                     </li>
@@ -68,11 +95,11 @@
         <div class="container text-center">
             <div class="row justify-content-center">
                 <div class=" mt-2 col col-lg-8  wow fadeInUp" data-wow-delay=".8s">
-                  <h2 class="display-4 mt-5">Why</h2>
+                    <h2 class="display-4 mt-5">About</h2>
                     <p class="h6" style="font-weight:normal;font-size:20px;font-family:cursive;">Imagine sending a video of your child crying in a stroller to his 18th birthday. <br>"Stop crying and grow up" -from Love Dad and Mom.<br></p>
                     <p class="h6" style="font-weight:normal;font-size:20px;font-family:cursive;">
-                        Imagine receiving a text message from yesterday, when you are feeling lazy.   <br>"Never give up and do your best to achieve your goal."-from Yourself.<br>
-                    </p>
+                        Imagine receiving a text message from yesterday, when you are feeling lazy. <br>"Never give up and do your best to achieve your goal."-from Yourself.<br>
+                    </p> <br>
                     <p class="h6" style="font-weight:strong;font-size:25px;">You can be part of the future too !</p>
                 </div>
             </div>
@@ -88,7 +115,7 @@
                     <div class="feature-item">
                         <div class="ml-auto media">
                             <div class="media-body">
-                                <h4  class="media-heading"><i class="fa fa-paint-brush"></i>&nbsp;&nbsp;Record a Video</h4>
+                                <h4 class="media-heading"><i class="fa fa-paint-brush"></i>&nbsp;&nbsp;Record a Video</h4>
                             </div>
                         </div>
                     </div>
@@ -179,10 +206,13 @@
                     <div class="block">
                         <div class="title text-center">
                             <h3>Contact Us</h3>
-                              <a href="mailto:bryan07270@gmail.com"><font color=orange>bryan07270@gmail.com</a><br>
-                              <a href="mailto:berry860610@gmail.com"><font color=orange>berry860610@gmail.com</a><br>
-                              <a href="mailto:andychang1220@gmail.com"><font color=orange>andychang1220@gmail.com</a><br>
-                              <span id="sub_bot"> Your advice will be highly appreciated !</span>
+                            <a href="mailto:bryan07270@gmail.com">
+                                <font color=orange>bryan07270@gmail.com</a><br>
+                            <a href="mailto:berry860610@gmail.com">
+                                <font color=orange>berry860610@gmail.com</a><br>
+                            <a href="mailto:andychang1220@gmail.com">
+                                <font color=orange>andychang1220@gmail.com</a><br>
+                            <span id="sub_bot"> Your advice will be highly appreciated !</span>
                         </div>
                         <div class="d-flex flex-row justify-content-center">
                             <div class="">
@@ -190,9 +220,9 @@
                                     <!-- <div class="form-group">
                                   <input type="text" class="form-control" id="signup-form">
                               </div> -->
-                              <li class="shake-crazy">
-                                    <a href="https://docs.google.com/forms/d/1t9sXFWGV37njGNTveNWuU2-ALjmS-VLdVMOL5DnbCNE/viewform?edit_requested=true" type="submit" class="btn .btn-primary btn-lg "><i class="fa fa-envelope-o" aria-hidden="true" style="color:blue "></i>&nbsp;&nbsp;Get Notified When Available</a>
-                              </li>
+                                    <li class="shake-crazy">
+                                        <a href="https://docs.google.com/forms/d/1t9sXFWGV37njGNTveNWuU2-ALjmS-VLdVMOL5DnbCNE/viewform?edit_requested=true" type="submit" class="btn .btn-primary btn-lg "><i class="fa fa-envelope-o" aria-hidden="true" style="color:blue "></i>&nbsp;&nbsp;Get Notified When Available</a>
+                                    </li>
                                 </form>
                             </div>
                         </div>
@@ -200,6 +230,8 @@
                 </div>
             </div>
         </div>
+
+
     </section>
 
     <footer class="wow fadeInUp" data-wow-delay=".8s">

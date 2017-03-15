@@ -211,9 +211,17 @@ header .social-info li a:hover {
 }*/
 
 #feature {
+    background-image: url("../images/66.jpg");
+    background-size: cover;
     padding: 50px 0;
     margin-top: 50px;
     border-top: 1px solid #dedede;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #feature .title {
@@ -233,12 +241,12 @@ header .social-info li a:hover {
 }
 
 #feature .feature-item .icon i {
-    color: #f48e5c;
+    color: rgb(246, 121, 5);
     font-size: 30px;
 }
 
 #feature .feature-item h4 {
-    color: #f48e5c;
+    color: rgb(196, 26, 228);
     margin-bottom: 0;
     font-weight: 300;
     margin-bottom: 8px;

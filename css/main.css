@@ -60,6 +60,18 @@ section h2 {
   font-size: 1.5rem;
 }
 
+.superShadow {
+    text-shadow: 0 1px 0 hsl(174, 5%, 80%), 0 2px 0 hsl(174, 5%, 75%), 0 3px 0 hsl(174, 5%, 70%), 0 4px 0 hsl(174, 5%, 66%), 0 5px 0 hsl(174, 5%, 64%), 0 6px 0 hsl(174, 5%, 62%), 0 7px 0 hsl(174, 5%, 61%), 0 8px 0 hsl(174, 5%, 60%), 0 0 5px rgba(0, 0, 0, .5), 0 1px 3px rgba(0, 0, 0, .2), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .3);
+}
+
+#share-buttons img {
+    width: 50px;
+    padding: 5px;
+    border: 0;
+    box-shadow: 0;
+    display: inline;
+    margin-bottom: 20px;
+}
 
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -214,11 +226,26 @@ header .social-info li a:hover {
     color: #666;
 }*/
 
+.bg-contain{
+  background-image: url("../images/66.jpg");
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.bg-contain-fg{
+  background-color: rgba(255, 255, 255, 0.83);
+}
+
 #feature {
     padding: 50px 0;
     margin-top: 50px;
     border-top: 1px solid #dedede;
-    background-image: url("../images/66.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -226,7 +253,6 @@ header .social-info li a:hover {
     background-position: center;
     background-attachment: fixed;
     text-align: center;
-    opacity: 0.8;
 }
 
 #feature .title {
@@ -251,7 +277,7 @@ header .social-info li a:hover {
 }
 
 #feature .feature-item h4 {
-    color: rgb(196, 26, 228);
+    color: rgb(255, 179, 102);
     margin-bottom: 0;
     font-weight: 300;
     margin-bottom: 8px;

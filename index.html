@@ -18,29 +18,51 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script">
      <!-- 個人嘗試-->
      <style>
-    #b0 { background-image: url("666.jpg");background-attachment: fixed; }
-     #b1 { background-image: url("66.jpg"); background-attachment: fixed;}
-#b2 { background-image: url("666.jpg");background-attachment: fixed; }
-#b3 { background-image: url("66.jpg");background-attachment: fixed; }
-#b4 { background-image: url("666.jpg"); background-attachment: fixed;}
-#b5 { background-image: url("66.jpg"); background-attachment: fixed;}
-#b6 { background-image: url("666.jpg");background-attachment: fixed; }
-#b7 { background-image: url("66.jpg"); background-attachment: fixed;}
-#b8 { background-image: url("666.jpg"); background-attachment: fixed;}
-#b9 { background-image: url("66.jpg"); background-attachment: fixed;}
-#b10 { background-image: url("666.jpg"); background-attachment: fixed;}
+    #b0 { background-image: url("images/66.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;}
+    #b1 { background-image: url("images/666.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center; }
+     #b2 { background-image: url("images/66.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;}
+    #b3 { background-image: url("images/666.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;}
     </style>
 </head>
 
 <body data-spy="scroll" data-target="#nav">
     <!-- 個人嘗試-->
     <script>
-	document.body.id = "b1";
+	document.body.id = "b0";
 </script>
     <script>
 
         function run(interval, frames) {
     var int = 1;
+    var frames = 3;
     var interval = 10000;
     
     function func() {
@@ -54,6 +76,7 @@
 
 run(1000, 10);
     </script>
+    
     <!-- 個人嘗試-->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>

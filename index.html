@@ -32,43 +32,7 @@
             margin-bottom: 20px;
         }
     </style>
-    <style>
-        #b1 {
-            background-image: url("../images/66.jpg");
-        }
 
-        #b2 {
-            background-image: url("../images/666.jpg");
-        }
-
-        #b3 {
-            background-image: url("../images/66.jpg");
-        }
-
-        #b4 {
-            background-image: url("../images/666.jpg");
-        }
-
-        #b5 {
-            background-image: url("../images/66.jpg");
-        }
-
-        #b6 {
-            background-image: url("../images/666.jpg");
-        }
-
-        #b7 {
-            background-image: url("../images/66.jpg");
-        }
-
-        #b8 {
-            background-image: url("../images/666.jpg");
-        }
-
-        #b9 {
-            background-image: url("../images/66.jpg");
-        }
-    </style>
 </head>
 
 <body data-spy="scroll" data-target="#nav">
@@ -288,6 +252,7 @@
         </div>
     </footer>
 
+
     <section id="jsScripts">
         <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -317,25 +282,6 @@
 
             ga('create', 'UA-93490874-1', 'auto');
             ga('send', 'pageview');
-        </script>
-        <script type="text/javascript">
-            function run(interval, frames) {
-                var int = 1;
-                var interval = 10000;
-
-                function func() {
-
-                    document.body.id = "b" + int;
-                    int++;
-                    if (int === frames) {
-                        int = 1;
-                    }
-                }
-
-                var swap = window.setInterval(func, interval);
-            }
-
-            run(1000, 10); //milliseconds, frames
         </script>
     </section>
 
